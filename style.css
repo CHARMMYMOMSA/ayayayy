@@ -1,5 +1,17 @@
-h1 {
-    font-family: 'Borel', cursive;
-    font-family: 'Prompt', sans-serif;
-    font-family: 'Shadows Into Light', cursive;
+.know {
+   display: flex;
+   width: 1500px;
+   height: 400px;
+   background-color: rgb(160, 60, 127); 
 }
+.bad {
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    justify-content: center;
+    align-items:flex-end
+}
+@media (min-height: 680px), screen and (orientation: portrait) {
+    /* … */
+  }
+  
